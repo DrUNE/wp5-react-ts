@@ -14,6 +14,8 @@ module.exports = {
     port: 8080,
   },
 
+  devtool: "eval-cheap-module-source-map",
+
   module: {
     rules: [
       {
